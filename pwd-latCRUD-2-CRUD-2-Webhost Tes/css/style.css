@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Kaushan-script;
+    src: url(../fonts/KaushanScript-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    background-color: #5976b8;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    right: 0;
+    z-index: 9999;
+}
+
+
+.logo {
+    margin-right: -5px;
+    /* Atur margin agar logo dan judul tidak saling menumpuk */
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    /* Hapus margin default dari h1 */
+    font-size: 40px;
+}
+
+.header a {
+    margin-left: 900px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.header a:hover {
+    background-color: azure;
+    color: black;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.header .logo-txt a {
+    margin: 0;
+    /* Hapus margin default dari h1 */
+    font-size: 40px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.header .logo-txt a:hover {
+    background-color: #5976b8;
+}
+
+.navbar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 0px;
+    color: white;
+    height: 30px
+}
+
+.navbar h3 {
+    font-size: 25px;
+    margin-left: 25px;
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    justify-content: space-between;
+    margin-left: 200px;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: azure;
+    color: black;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.content a {
+    color: black;
+    transition: 0.3s ease;
+}
+
+.content a:hover {
+    background-color: #5976b8;
+    color: #efefef;
+    border-radius: 4px;
+    padding: 2px;
+}
